@@ -1,0 +1,622 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+
+  html{
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  nav {
+    background-color: #003366;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    
+    
+    
+  }
+
+  .navbar{
+    display: flex;
+  }
+
+  .header{
+    width: 100%;
+  }
+  nav{
+    padding-bottom: 10px;
+  }
+  nav ul {
+    margin: 0 20px;
+    padding: 0;
+    list-style: none;
+    
+  }
+
+  nav li:hover{
+
+    border: 3px solid white;
+    border-radius: 10px;
+    border-width: 1px
+    
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+    
+  }
+
+  nav li{
+    float: left;
+    
+    margin: 1px;
+    list-style: none;
+
+  }
+  
+  
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    /* margin: 1em 0; */
+  }
+  
+  p {
+    margin: 1em 0;
+  }
+  
+  
+  /* .container {
+    
+    margin: auto;
+    padding: 1em;
+  } */
+  
+  footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+  }
+
+
+  
+  
+
+  
+
+  .logoimg{
+    width: 40%;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+    
+    
+    
+  }
+
+  
+  
+
+  .textoentrada{
+    text-align: center;
+   
+    margin: auto;
+    
+    text-decoration: none;
+  }
+
+  .entrada{
+    margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 25px;
+  }
+
+  #text1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    border-radius: 20px;
+    width: 70%;
+  }
+
+  #text2{
+    
+    margin-bottom: 20px;
+   
+    border-radius: 20px;
+    
+  }
+
+  #bemvindo{
+    margin-top: 30px;
+  }
+  
+  
+  .descricao {
+    flex: 2;
+  }
+  
+  .descricao h2 {
+    margin: 0;
+  }
+  
+  .descricao p:last-child {
+    margin-bottom: 0;
+  }
+
+  .produto {
+  display: flex;
+  align-items: center;
+  
+}
+
+/* .image {
+  flex: 1;
+  margin-right: 2em;
+  width: 100%;
+} */
+
+.descricao {
+  flex: 2;
+  font-size: 1.5rem;
+  justify-content: end;
+  
+}
+
+.descricao h2 {
+  margin: 0;
+}
+
+.descricao p:last-child {
+  margin-bottom: 0;
+}
+
+
+.imgvendas{
+    width:60%;
+    /* margin-left: 30px; */
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+.imgvendas1{
+  width: 40%;
+  
+  margin: 2rem;
+  border-radius: 10px;
+}
+
+.imagem {
+    position: relative;
+    
+  }
+  
+  .imagem img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .imagem img:first-child {
+    opacity: 1;
+  }
+  
+  #quadrado img {
+    width: 200px; /* defina a largura das imagens */
+    height: 200px; /* defina a altura das imagens */
+    float: left; /* faça as imagens flutuarem para a esquerda */
+    margin-right: 10px; /* adicione um espaçamento à direita das imagens */
+  }
+
+  
+  
+  #quadrado img {
+    display: none;
+  }
+
+  footer {
+    
+    width: 100%;
+    text-align: center;
+  }
+  
+  .endereco, .cnpj {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .endereco, .cnpj {
+      display: block;
+    }
+  }
+
+  .nomeproduto{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+  }
+
+  .direitos{
+    font-size: 0.7rem;
+  }
+
+  .blockimgentrada{
+
+    
+    width: 80%;
+    display: flex;
+    
+    
+    
+
+  }
+
+  /* .img1{
+    width: 50%;
+    border-radius: 20px;
+    
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  } */
+
+ 
+
+  #map{
+    display: flex;
+    justify-content: center;
+  }
+
+  .whats{
+    
+    font-size: 38px;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  .whats ul{
+    margin: auto;
+    display: inline-flex;
+    
+  }
+
+  .whats li{
+margin-right: 30px;
+    margin-left: 100px;
+  }
+
+
+
+  .sobre{
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    border-radius: 30px;
+    
+    margin: auto;
+  }
+  #container_1_img  {
+    
+    margin: auto;
+  }
+
+
+  
+  #container_1_img img {
+    width: 800px;
+    height: 800px;
+    border-radius: 10px;
+    margin: auto;
+  }
+  
+  
+
+ 
+  .imagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px; /* largura da div */
+    height: 800px; /* altura da div */
+    
+  }
+  
+  
+
+  /* .imagens{width: 70%;} */
+
+  .imagem {
+    max-width: 60%;
+    max-height: 60%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    
+  }
+
+  .imagens img {
+    /* width: 550px;
+    height: 550px; */
+    object-fit: contain;
+    
+  }
+
+  #imagens{
+    width: 900px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  
+  
+
+  .descricao{
+    width: 100%;
+  
+  box-sizing: border-box;
+  
+  }
+
+  
+
+  #imagens img {
+    width: 750px;
+    height: 750px;
+    object-fit: contain;
+    
+  }
+
+  .blockimgentrada{
+    margin: auto;
+    
+    width: 100%;
+    justify-content: center;
+  }
+
+
+  
+
+
+  .blockimgentrada {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    position: relative;
+    
+  }
+
+  .produto{
+    width: 100%;
+    display: flex
+  }
+  
+  .back {
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+
+  .next {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border-radius: 20px;
+    
+  }
+  .next:hover {
+    cursor: pointer;
+  }
+  .next p{
+    padding: 0px;
+    margin-top: 0px;
+  }
+  .back p{
+    margin-top: 0px;
+  }
+
+  .back:hover {
+    cursor: pointer;
+  }
+  .imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagem-container {
+    /* max-width: 100%; */
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  .button-container img{
+    width: 30px;
+    
+  }
+
+  
+  .icons-contato li{
+    list-style: none;
+  }
+  .icons-contato img{
+
+    width: 40px;
+  }
+
+  /* @media (max-width:900px){
+
+
+    nav ul{
+      font-size: 80px;
+    }
+  } */
+
+  
+  @media (max-width:768px){
+
+    html{
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .logoimg{
+      width: 330px;
+      
+  margin: auto;
+    }
+
+
+    nav{
+     
+      font-size: 35px;
+      display: flex;
+      flex-direction: column;
+  align-items: center;
+  
+  margin: 0 auto;
+     
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      font-size: 35px;
+    }
+
+   
+    nav li{
+      border: 1px white solid;
+      margin: 0 40px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .imagem-container{
+      width: 100%;
+    }
+
+    .whats li{
+      margin: 0;
+      font-size: 22px;
+    }
+    .whats ul{
+      margin: 0px;
+    }
+
+    #imagens{
+      width: 300px;
+      height: 300px;
+      display: table-cell;
+      /* position: relative; */
+    }
+
+    #imagens img{
+      width: 390px;
+      height: 390px;
+      display: block;
+      border-radius: 0;
+    }
+
+    .imagens img{
+      width: 390px;
+      height: 390px;
+      
+    }
+    #container_1_img img{
+      border-radius: 0;
+      width: 390px;
+      height: 390px;
+    }
+
+    
+
+    .descricao{
+      
+      position: absolute;
+      margin-top: 880px;
+      z-index: 0;
+      text-align: center;
+    }
+
+    .descricao li{
+      list-style: none;
+    }
+
+    .nomeproduto{
+      text-align: center;
+      margin: auto;
+    }
+
+    #text1{
+      width: 100%;
+    }
+
+
+    body[data-page="produto"] footer{
+      margin-top: 500px;
+    }
+    
+  }
+
+
+ 
+  
+
